@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.HyperSenGames.izleparakazan.Profile"
+    android:background="#0D1324"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#818181"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="Profil"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:translationY="-2.07sp" />
+
+
+    <TextView
+        android:id="@+id/nameuptext"
+        android:layout_width="73dp"
+        android:layout_height="31dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="94dp"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:text="İsim"
+        android:textColor="#818181"
+        android:textSize="20dp"
+        android:translationY="-1.55sp" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="318dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="#020613"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#818181"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/mailuptext"
+        android:layout_width="73dp"
+        android:layout_height="31dp"
+        android:layout_below="@id/moneycountText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="200dp"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:text="Mail"
+        android:textColor="#818181"
+        android:textSize="20dp"
+        android:translationY="-1.55sp" />
+
+    <TextView
+        android:id="@+id/mailtext"
+        android:layout_width="318dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/userName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#020613"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#818181"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:id="@+id/pointscountText"
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/mailtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#020613"
+        android:gravity="center"
+        android:text="Puan : 5000"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/moneycountText"
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/convert_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#020613"
+        android:gravity="center"
+        android:text="Bakiye : 50TL"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Çıkış Yap"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/convert_btn"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/pointscountText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:cornerRadius="36dp"
+        app:icon="@drawable/ic_baseline_height_24"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconSize="35dp"
+        app:iconTint="@color/white" />
+
+</RelativeLayout>

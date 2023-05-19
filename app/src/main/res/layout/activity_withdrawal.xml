@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.HyperSenGames.izleparakazan.Withdrawal"
+    android:background="#0D1324"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="Çekim"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:translationY="-2.07sp" />
+
+    <TextView
+        android:id="@+id/bakiyetext1"
+        android:layout_width="913dp"
+        android:layout_height="21dp"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="269dp"
+        android:layout_marginTop="94dp"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:text="Bakiye"
+        android:textColor="#818181"
+        android:translationY="-1.55sp" />
+
+
+
+    <!-- Rectangle 15 -->
+    <TextView
+        android:id="@+id/bakiyetext"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bakiyetext1"
+        android:textSize="14dp"
+
+        android:layout_marginLeft="269dp"
+        android:layout_marginRight="50dp"
+        android:background="#020613"
+
+        android:gravity="center"
+        android:hint="50"
+        android:padding="15dp"
+        android:text="45 TL"
+        android:textColor="@android:color/holo_green_dark" />
+
+
+    <TextView
+        android:id="@+id/isimturu"
+        android:layout_width="73dp"
+        android:layout_height="21dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="174dp"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:text="Ad"
+        android:textColor="#818181"
+        android:translationY="-1.55sp" />
+
+
+
+    <!-- Rectangle 15 -->
+
+
+    <EditText
+        android:id="@+id/isiminput"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="202dp"
+        android:background="#020613"
+        android:hint="Ad-Soyad"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#818181" />
+
+    <TextView
+        android:id="@+id/hesapturu"
+        android:layout_width="913dp"
+        android:layout_height="21dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="274dp"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:text="Bank Account"
+        android:textColor="#818181"
+        android:translationY="-1.55sp" />
+
+
+
+    <!-- Rectangle 15 -->
+    <EditText
+        android:id="@+id/ibaninput"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="303dp"
+        android:background="#020613"
+        android:hint="IBAN/Papara"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#818181" />
+
+    <TextView
+        android:id="@+id/amountturu"
+        android:layout_width="913dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="378dp"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:text="Tutar"
+        android:textColor="#818181"
+        android:translationY="-1.55sp" />
+
+
+
+    <!-- Rectangle 15 -->
+    <EditText
+        android:id="@+id/amountinput"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="403dp"
+        android:background="#020613"
+        android:hint="50"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#818181" />
+
+    <Button
+        android:id="@+id/withdraw_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Çekim Oluştur"
+
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/requests"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:textColor="@color/white"
+
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+
+        android:text="Taleplerim"
+        android:textAllCaps="false"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="553dp"
+        android:text="          Minimum Çekim Talebi Limiti 50TL'Dir."
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#818181"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</RelativeLayout>

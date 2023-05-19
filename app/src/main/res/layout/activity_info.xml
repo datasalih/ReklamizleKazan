@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.HyperSenGames.izleparakazan.Info"
+    android:background="#0D1324"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="Bilgi"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:translationY="-2.07sp" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="570dp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="15dp"
+        android:autoSizeTextType="uniform"
+        android:background="#020613"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+
+        android:text="\n   Kullanım: \n   ●  İnternete  Bağlı Olduğunuzdan Emin Olunuz.\n
+  ●  Reklamlar Her 10 Dakikada Bir Yenilenir. Geri Sayım Sadece Uygulama   Açıkken Çalışır.\n
+
+ ● İzle Sayfasındaki Reklamları İzleyerek Puan Kazanabilirsiniz.\n
+
+ ● Puanlarınızı Profil Sayfasındaki Dönüştürme Butonuyla Paraya Dönüştürebilirsiniz.\n
+
+ ● Çekim Talebi Oluşturmak İçin Çekim Sayfasındaki Forma Doğru Banka Bilgilerinizi ve İstediğiniz Tutarı Girerek Yapabilirsiniz.\n
+  ● 1TL 4000 PUANDIR.\n
+
+ ● Minimum Çekim Talebi 50TL'DİR.\n
+
+ ● Çekim Talebiniz Her Ayın 1'inde ve 15'inde hesabınıza yatırılıcaktır.
+"
+        android:textColor="#818181"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#818181"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</RelativeLayout>

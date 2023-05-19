@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.HyperSenGames.izleparakazan.Ads"
+    android:background="#0D1324"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="Reklam İzle"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:translationY="-2.07sp" />
+
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="#818181" />
+
+    <TextView
+        android:id="@+id/points_count_text"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="65dp"
+        android:background="#0D1324"
+        android:gravity="center"
+        android:text="Puan : 5000"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/puan25"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/background"
+        android:layout_alignTop="@id/background"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="110dp"
+
+        android:text="Reklam İzle - 35P  5/"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/adcount1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/background"
+        android:layout_alignTop="@id/background"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="110dp"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/puan45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puan25"
+        android:layout_alignStart="@id/background"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="40dp"
+        android:text="Reklam İzle - 55P  5/"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/adcount2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puan25"
+        android:layout_alignStart="@id/background"
+
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="40dp"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+
+
+        android:id="@+id/puan65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puan45"
+        android:layout_alignStart="@id/background"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="40dp"
+        android:text="Reklam İzle - 75P  5/"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/adcount3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/puan45"
+    android:layout_alignStart="@id/background"
+
+    android:layout_marginLeft="275dp"
+    android:layout_marginTop="40dp"
+    android:text="4"
+    android:textColor="@color/white"
+    android:textSize="28dp"
+    android:textStyle="bold"/>
+
+    <TextView
+
+        android:id="@+id/puan85"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puan65"
+        android:layout_alignStart="@id/background"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="40dp"
+        android:text="Reklam İzle - 95P  5/"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/adcount4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puan65"
+        android:layout_alignStart="@id/background"
+
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="40dp"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/refresh"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignTop="@id/puan25"
+        android:layout_alignEnd="@id/puan25"
+        android:layout_marginTop="-85dp"
+        android:layout_marginEnd="-20dp"
+        android:backgroundTint="#818181"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:cornerRadius="36dp"
+        app:icon="@drawable/ic_baseline_autorenew_24"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconTint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_25"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignTop="@id/puan25"
+        android:layout_alignEnd="@id/puan25"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-20dp"
+        android:backgroundTint="#0D1324"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:cornerRadius="36dp"
+        app:icon="@drawable/ic_baseline_play_circle_outline_24"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconTint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_45"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignTop="@id/puan45"
+        android:layout_alignEnd="@id/puan25"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-20dp"
+        android:backgroundTint="#0D1324"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:cornerRadius="36dp"
+        app:icon="@drawable/ic_baseline_play_circle_outline_24"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconTint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_65"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignTop="@id/puan65"
+        android:layout_alignEnd="@id/puan25"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-20dp"
+        android:backgroundTint="#0D1324"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:cornerRadius="36dp"
+        app:icon="@drawable/ic_baseline_play_circle_outline_24"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconTint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_85"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignTop="@id/puan85"
+        android:layout_alignEnd="@id/puan25"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-20dp"
+        android:backgroundTint="#0D1324"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:cornerRadius="36dp"
+        app:icon="@drawable/ic_baseline_play_circle_outline_24"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconTint="@color/white" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#818181"
+        app:menu="@menu/bottom_navigation_menu" />
+
+
+</RelativeLayout>
